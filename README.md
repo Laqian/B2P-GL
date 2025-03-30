@@ -1,4 +1,4 @@
-# B2P-GL
+# Supplementary Experiments
 <br>
 
 ## Stage 1 Experiment
@@ -17,7 +17,7 @@
 
 ## Stage 2 Experiment
 
-### Population Graph Constrcution Method
+### Population Graph Construction Method
 
 *Table 2: Performance comparison of phenotypic-brain feature similarity edge versus condition-based edge in graph construction.*
 
