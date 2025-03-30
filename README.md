@@ -41,10 +41,8 @@
 <br>
 
 
-*Table 4: Performance metrics across different top-k values for ABIDE and ADHD datasets (mean ± std %).*
+*Table 4: Performance metrics across different top-k values for ABIDE I dataset.*
 
-
-### ABIDE Dataset
 | Top-k | Accuracy       | AUC           | Specificity   | Sensitivity   |
 |-------|----------------|---------------|---------------|---------------|
 | 1     | 82.59 ± 0.72   | 82.33 ± 0.81  | 86.03 ± 1.66  | 78.62 ± 2.74  |
@@ -55,7 +53,8 @@
 | 6     | 82.64 ± 0.44   | 82.28 ± 0.37  | 87.44 ± 1.62  | 77.13 ± 1.13  |
 | 7     | 82.59 ± 0.37   | 82.35 ± 0.38  | 85.53 ± 1.08  | 79.16 ± 1.25  |
 
-### ADHD Dataset
+*Table 4: Performance metrics across different top-k values for ADHD-200 dataset.*
+
 | Top-k | Accuracy       | AUC           | Sensitivity   | Specificity   |
 |-------|----------------|---------------|---------------|---------------|
 | 1     | 77.02 ± 0.26   | 77.14 ± 0.25  | 80.27 ± 1.17  | 74.01 ± 1.22  |
