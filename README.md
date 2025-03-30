@@ -27,6 +27,9 @@
 | Condition-based                    | 83.40 ± 0.50   | 83.00 ± 0.30  | 88.90 ± 0.50  | 77.10 ± 0.10  |
 
 
+<br>
+<br>
+
 *Table 3: Performance comparison of same-category versus different-category edge connections within conditions.*
 | Edge Connection Type               | Accuracy   | AUC       | Sensitivity (Recall) | Specificity   |
 |------------------------------------|------------|-----------|----------------------|---------------|
@@ -36,6 +39,7 @@
 
 <br>
 <br>
+
 
 ### Phenotypic Fusion Module
 
@@ -49,10 +53,19 @@
 <br>
 
 
+### Population Graph Neural Network
+
+*Table x: Performance comparison between GCN and HGCN architectures on condition-based graphs.*
+
+| Model | Accuracy       | AUC           | Specificity   | Sensitivity   |
+|-------|----------------|---------------|---------------|---------------|
+| GCN   | 79.32 ± 0.48   | 78.90 ± 0.45  | 82.15 ± 1.20  | 75.80 ± 1.10  |
+| HGCN  | 83.40 ± 0.50   | 83.00 ± 0.30  | 88.90 ± 0.50  | 77.10 ± 0.10  |
+
 
 ## Two-Stage Experiment
 
-*Table Performance comparison with/without similarity loss in training stages.*
+*Table x Performance comparison with/without similarity loss in training stages.*
 
 | Configuration          | Accuracy   | AUC       | Sensitivity | Specificity   |
 |------------------------|------------|-----------|-------------|---------------|
