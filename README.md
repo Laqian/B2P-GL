@@ -1,6 +1,9 @@
 # B2P-GL
 <br>
 
+## Stage 1 Experiment
+
+### Node Reassignment Module
 *Table 1: Ablation study of node reassignment module in ANR-GAT. Top: complete removal. Middle: replacement with WGAT layer. Bottom: our full proposed model.*
 
 | Model Variant                     | Accuracy       | AUC           | Specificity   | Sensitivity   |
@@ -12,16 +15,19 @@
 <br>
 <br>
 
-*Table 2: Performance comparison of phenotypic-brain feature similarity versus condition-based edge in graph construction.*
+## Stage 2 Experiment
 
-| Population Graph Edge Construction Method              | Accuracy       | AUC           | Specificity   | Sensitivity   |
+### Population Graph Constrcution Method
+
+*Table 2: Performance comparison of phenotypic-brain feature similarity edge versus condition-based edge in graph construction.*
+
+| Edge Construction Method              | Accuracy       | AUC           | Specificity   | Sensitivity   |
 |----------------------------------------|----------------|---------------|---------------|---------------|
 | Phenotypic-Brain Feature Similarity    | 81.95 ± 0.52   | 81.71 ± 0.51  | 85.29 ± 1.87  | 78.12 ± 1.85  |
 | Condition-based                    | 83.40 ± 0.50   | 83.00 ± 0.30  | 88.90 ± 0.50  | 77.10 ± 0.10  |
 
 
 *Table 3: Performance comparison of same-category versus different-category edge connections within conditions.*
-
 | Edge Connection Type               | Accuracy   | AUC       | Sensitivity (Recall) | Specificity   |
 |------------------------------------|------------|-----------|----------------------|---------------|
 | Same-category edges               | 82.00 ± 0.54 | 81.67 ± 0.59 | 86.58 ± 0.73        | 76.77 ± 1.49  |
@@ -31,10 +37,7 @@
 <br>
 <br>
 
-
-
-
-
+### Phenotypic Fusion Module
 
 *Table 6: Performance comparison with and without phenotype feature fusion.*
 | Feature Fusion    | Accuracy       | AUC           | Sensitivity   | Specificity   |
@@ -45,6 +48,9 @@
 <br>
 <br>
 
+
+
+## Two-Stage Experiment
 
 *Table Performance comparison with/without similarity loss in training stages.*
 
