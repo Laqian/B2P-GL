@@ -53,7 +53,7 @@
 | 6     | 82.64 ± 0.44   | 82.28 ± 0.37  | 87.44 ± 1.62  | 77.13 ± 1.13  |
 | 7     | 82.59 ± 0.37   | 82.35 ± 0.38  | 85.53 ± 1.08  | 79.16 ± 1.25  |
 
-*Table 4: Performance metrics across different top-k values for ADHD-200 dataset.*
+*Table 5: Performance metrics across different top-k values for ADHD-200 dataset.*
 
 | Top-k | Accuracy       | AUC           | Sensitivity   | Specificity   |
 |-------|----------------|---------------|---------------|---------------|
@@ -65,6 +65,9 @@
 | 6     | 78.76 ± 0.51   | 78.77 ± 0.50  | 78.89 ± 1.95  | 78.65 ± 2.00  |
 | 7     | 78.08 ± 0.61   | 78.16 ± 0.67  | 80.36 ± 2.85  | 75.96 ± 2.12  |
 
+
+<br>
+<br>
 
 ### Phenotypic Fusion Module
 
@@ -87,6 +90,9 @@
 | GCN   | 79.32 ± 0.48   | 78.90 ± 0.45  | 82.15 ± 1.20  | 75.80 ± 1.10  |
 | HGCN  | 83.40 ± 0.50   | 83.00 ± 0.30  | 88.90 ± 0.50  | 77.10 ± 0.10  |
 
+
+<br>
+<br>
 
 ## Two-Stage Experiment
 
