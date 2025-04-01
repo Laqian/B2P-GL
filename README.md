@@ -2,8 +2,7 @@
 <br>
 
 ## Stage 1 Experiment
-
-
+<br>
 *Table 1: Ablation study of node reassignment module in ANR-GAT. Top: complete removal. Middle: replacement with WGAT layer. Bottom: our full proposed model.*
 
 | Model Variant                     | Accuracy       | AUC           | Specificity   | Sensitivity   |
