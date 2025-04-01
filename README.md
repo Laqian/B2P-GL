@@ -3,7 +3,7 @@
 
 ## Stage 1 Experiment
 
-### Node Reassignment Module
+
 *Table 1: Ablation study of node reassignment module in ANR-GAT. Top: complete removal. Middle: replacement with WGAT layer. Bottom: our full proposed model.*
 
 | Model Variant                     | Accuracy       | AUC           | Specificity   | Sensitivity   |
@@ -17,7 +17,7 @@
 
 ## Stage 2 Experiment
 
-### Population Graph Construction Method
+<br>
 
 *Table 2: Performance comparison of phenotypic-brain feature similarity edge versus condition-based edge in graph construction.*
 
@@ -71,7 +71,7 @@
 <br>
 <br>
 
-### Phenotypic Fusion Module
+
 
 *Table 6: Performance comparison with and without phenotype feature fusion.*
 | Feature Fusion    | Accuracy       | AUC           | Sensitivity   | Specificity   |
@@ -97,7 +97,7 @@
 
 
 ### Population Graph Neural Network
-
+<br>
 *Table 8: Performance comparison between GCN and HGCN architectures on condition-based graphs.*
 
 | Model | Accuracy       | AUC           | Specificity   | Sensitivity   |
@@ -109,7 +109,7 @@
 <br>
 
 ## Two-Stage Experiment
-
+<br>
 *Table 9: Performance comparison with/without similarity loss in training stages.*
 
 | Configuration          | Accuracy   | AUC       | Sensitivity | Specificity   |
