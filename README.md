@@ -95,8 +95,6 @@
 <br>
 
 
-### Population Graph Neural Network
-<br>
 *Table 8: Performance comparison between GCN and HGCN architectures on condition-based graphs.*
 
 | Model | Accuracy       | AUC           | Specificity   | Sensitivity   |
