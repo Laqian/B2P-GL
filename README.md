@@ -1,8 +1,9 @@
 # Supplementary Experiments
 <br>
 
-## Stage 1 Experiment
+
 <br>
+
 *Table 1: Ablation study of node reassignment module in ANR-GAT. Top: complete removal. Middle: replacement with WGAT layer. Bottom: our full proposed model.*
 
 | Model Variant                     | Accuracy       | AUC           | Specificity   | Sensitivity   |
@@ -14,7 +15,7 @@
 <br>
 <br>
 
-## Stage 2 Experiment
+---
 
 <br>
 
@@ -70,7 +71,8 @@
 <br>
 <br>
 
-
+---
+<br>
 
 *Table 6: Performance comparison with and without phenotype feature fusion.*
 | Feature Fusion    | Accuracy       | AUC           | Sensitivity   | Specificity   |
@@ -94,6 +96,8 @@
 <br>
 <br>
 
+---
+<br>
 
 *Table 8: Performance comparison between GCN and HGCN architectures on condition-based graphs.*
 
@@ -105,7 +109,8 @@
 <br>
 <br>
 
-## Two-Stage Experiment
+
+---
 <br>
 *Table 9: Performance comparison with/without similarity loss in training stages.*
 
